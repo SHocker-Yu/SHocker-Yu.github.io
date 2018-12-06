@@ -1134,9 +1134,11 @@ pre .javascript .function {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
-  margin-top: 10px;
-  font-size: 13px;
-  color: #999;
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 26px;
+  color: #666;
+  letter-spacing: -0.03em;
 }
 .use-motion .brand {
   opacity: 0;
@@ -1822,7 +1824,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2978b5;
+  background: #ff494a;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2603,18 +2605,31 @@ embed {
   background: none;
 }
 .custom-logo .site-title {
-  margin: 10px auto 0;
-  font-size: 24px;
+  font-style: normal;
+  margin: 0 auto;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 50px;
+  letter-spacing: -0.03em;
+  height: 50px;
   color: #222;
 }
 .custom-logo .site-title a {
   border: none;
 }
 .custom-logo-image {
-  margin: 0 auto;
-  padding: 5px;
-  max-width: 150px;
-  background: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+.under-subtitle-line {
+  max-width: 400px;
+  height: 1px;
+  margin-top: -1px;
+  border: none;
 }
 @media (max-width: 767px) {
   .site-nav {
